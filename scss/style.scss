@@ -3,6 +3,7 @@
 $bg-color: #271919;
 $text-color: white;
 $black: #1b1018;
+$selected: #fd3879;
 
 
 html{
@@ -22,7 +23,7 @@ html{
 }
 
 *::selection{
-    color: #fd3879;
+    color: $selected;
 }
 
 body {
